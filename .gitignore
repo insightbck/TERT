@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore secrets - if you need this file for development, ask me until env is better configured
+/config/secrets.yml

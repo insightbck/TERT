@@ -33,6 +33,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootstrap-generators', '~> 3.3.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 3.2'
+# Use stream-rails for now, until self-deployed stream API is implemented
+gem 'stream_rails'
 ### BK End
 
 # Use ActiveModel has_secure_password

@@ -29,12 +29,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rspec', '~> 3.4'
 
 # Use twitter-bootstrap for our responsive framework
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.3.1'
 gem 'bootstrap-generators', '~> 3.3.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 3.2'
 # Use stream-rails for now, until self-deployed stream API is implemented
 gem 'stream_rails'
+# Use Casein for a light-weight CMS, allows for decoupled front-end and easy modularization
+gem 'casein', '~>5.1.1'
 ### BK End
 
 # Use ActiveModel has_secure_password

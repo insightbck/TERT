@@ -37,6 +37,8 @@ gem 'sass-rails', '>= 3.2'
 gem 'stream_rails'
 # Use Casein for a light-weight CMS, allows for decoupled front-end and easy modularization
 gem 'casein', '~>5.1.1'
+# Use Kaminari for pagination
+gem 'kaminari'
 ### BK End
 
 # Use ActiveModel has_secure_password

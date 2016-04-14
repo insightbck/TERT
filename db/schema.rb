@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160410003649) do
+ActiveRecord::Schema.define(version: 20160414053214) do
 
   create_table "casein_admin_users", force: :cascade do |t|
     t.string   "login",                           null: false
@@ -42,6 +42,20 @@ ActiveRecord::Schema.define(version: 20160410003649) do
     t.string   "permalink"
     t.datetime "created"
     t.integer  "update_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "content_posts", force: :cascade do |t|
+    t.string   "title"
+    t.string   "body"
+    t.integer  "post_id"
+    t.string   "summary"
+    t.string   "permalink"
+    t.string   "string"
+    t.datetime "created"
+    t.datetime "edited"
+    t.integer  "owner_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
